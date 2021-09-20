@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'portfolio',
+    title: 'LSY Gallery',
     htmlAttrs: {
       lang: 'en'
     },
@@ -39,5 +39,9 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  }
+  },
+    server: {
+	port:3000,
+	host: '0.0.0.0'    
+}
 }
