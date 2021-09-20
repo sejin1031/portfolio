@@ -1,4 +1,7 @@
 export default {
+  serverMiddleware: [
+    '~apis/index.js'
+  ],
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'LSY Gallery',

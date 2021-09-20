@@ -1,15 +1,19 @@
 <template>
   <div>
-    <Header/>
-    <main>
-      Potfolio
-    </main>
-    <Footer/>
+    test
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  name: 'Index',
+  layout: 'basic',
+  data () {
+    return { 
+      
+    }
+  }
+}
 </script>
 
 <style>
