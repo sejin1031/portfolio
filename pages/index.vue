@@ -17,6 +17,6 @@ export default {
 </script>
 
 <style>
-body { background-color: #dce8fa }
-main { height: 100vh ; padding-top: 80px; }
+/* body { background-color: #dce8fa } */
+/* main { height: 100vh ;  } */
 </style>
