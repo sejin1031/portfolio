@@ -11,8 +11,8 @@
           <span class="nav-text" >션일장 단어 생성</span>
         </a-menu-item>
         <a-menu-item key="2">
-          <a-icon type="video-camera" />
-          <span class="nav-text">빈 페이지</span>
+          <a-icon type="user" />
+          <span class="nav-text" @click="$router.push('/pick')">추첨기</span>
         </a-menu-item>
       </a-menu>
     </a-layout-sider>
@@ -53,6 +53,7 @@ export default {
       switch (route) {
         case "/" : return '메인 페이지'
         case "/word" : return "단어 생성기"
+        case "/pick" : return "추첨기"
       }
     }
   }
