@@ -11,6 +11,10 @@
           <span class="nav-text" >션일장 단어 생성</span>
         </a-menu-item>
         <a-menu-item key="2">
+          <a-icon type="picture" />
+          <span class="nav-text" @click="$router.push('/photo')">션드컵</span>
+        </a-menu-item>
+        <a-menu-item key="3">
           <a-icon type="user" />
           <span class="nav-text" @click="$router.push('/pick')">추첨기</span>
         </a-menu-item>
